@@ -40,7 +40,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:text="@string/shutdown_timer"
-        android:focusable="false"
+        android:focusable="true"
         android:layout_alignBottom="@id/serverList"
         android:textAppearance="@android:style/TextAppearance.Material.Medium"
         android:textColor="?android:attr/colorForeground" />
@@ -77,7 +77,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:focusable="false"
+        android:focusable="true"
         android:text="@string/all"
         android:layout_alignBottom="@id/serverList"
         android:textAppearance="@android:style/TextAppearance.Material.Medium"
@@ -94,7 +94,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:focusable="false"
+        android:focusable="true"
         android:text="@string/upnp_server"
         android:textAppearance="@android:style/TextAppearance.Material.Medium"
         android:textColor="?android:attr/colorForeground" />
@@ -118,7 +118,7 @@
         android:layout_marginBottom="10dp"
         android:layout_toEndOf="@id/serverListLocalServerEnabled"
         android:layout_alignParentBottom="true"
-        android:focusable="false"
+        android:focusable="true"
         android:contentDescription="@string/settings"
         app:srcCompat="@drawable/ic_baseline_sensors_32" />
 
@@ -130,7 +130,7 @@
         android:layout_marginBottom="10dp"
         android:layout_toEndOf="@id/serverListProviderEnabled"
         android:layout_alignParentBottom="true"
-        android:focusable="false"
+        android:focusable="true"
         android:contentDescription="@string/settings"
         app:srcCompat="@drawable/ic_baseline_devices_32" />
 
@@ -142,7 +142,7 @@
         android:layout_marginBottom="10dp"
         android:layout_toEndOf="@id/serverListReceiverEnabled"
         android:layout_alignParentBottom="true"
-        android:focusable="false"
+        android:focusable="true"
         android:contentDescription="@string/settings"
         app:srcCompat="@drawable/ic_baseline_import_export_32" />
 
