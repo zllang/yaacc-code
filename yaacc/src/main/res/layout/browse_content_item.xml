@@ -67,31 +67,6 @@
                 android:textColor="?android:attr/colorForeground" />
 
             <ImageButton
-                android:id="@+id/browseContentItemPlaylistAdd"
-                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-                android:layout_width="32dp"
-                android:layout_height="48dp"
-                android:layout_marginStart="2dp"
-                android:nextFocusLeft="@id/browseContentItem"
-                android:layout_toStartOf="@id/browseContentItemDownload"
-                android:contentDescription="@string/browse_context_playlist_add"
-                android:focusable="true"
-                app:srcCompat="@drawable/ic_baseline_playlist_add_32" />
-
-            <ImageButton
-                android:id="@+id/browseContentItemDownload"
-                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-                android:layout_width="32dp"
-                android:layout_height="48dp"
-                android:layout_marginStart="2dp"
-                android:focusable="true"
-                android:layout_toStartOf="@id/browseContentItemPlay"
-                android:contentDescription="@string/browse_context_download"
-                android:nextFocusLeft="@id/browseContentItemPlaylistAdd"
-                app:srcCompat="@drawable/ic_baseline_download_32" />
-
-
-            <ImageButton
                 android:id="@+id/browseContentItemPlay"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="32dp"
@@ -99,9 +74,21 @@
                 android:layout_marginStart="2dp"
                 android:focusable="true"
                 android:layout_toStartOf="@id/browseContentItemPlayAll"
-                android:nextFocusLeft="@id/browseContentItemDownload"
+                android:nextFocusLeft="@id/browseContentItemPlay"
                 android:contentDescription="@string/browse_context_play"
                 app:srcCompat="@drawable/ic_baseline_play_arrow_32" />
+                
+            <ImageButton
+                android:id="@+id/browseContentItemPlaylistAdd"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="32dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="2dp"
+                android:nextFocusLeft="@id/browseContentItem"
+                android:layout_toStartOf="@id/browseContentItemPlay"
+                android:contentDescription="@string/browse_context_playlist_add"
+                android:focusable="true"
+                app:srcCompat="@drawable/ic_baseline_playlist_add_32" />
 
             <ImageButton
                 android:id="@+id/browseContentItemPlayAll"

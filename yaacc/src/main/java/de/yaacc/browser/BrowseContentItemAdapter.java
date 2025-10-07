@@ -423,7 +423,7 @@ public class BrowseContentItemAdapter extends RecyclerView.Adapter<BrowseContent
             name = itemView.findViewById(R.id.browseContentItemName);
             play = itemView.findViewById(R.id.browseContentItemPlay);
             playAll = itemView.findViewById(R.id.browseContentItemPlayAll);
-            download = itemView.findViewById(R.id.browseContentItemDownload);
+            //download = itemView.findViewById(R.id.browseContentItemDownload);
             playlistAdd = itemView.findViewById(R.id.browseContentItemPlaylistAdd);
             // Ensure buttons are reachable via DPAD when focused from row
             View.OnKeyListener actionKeyListener = (v, keyCode, event) -> {
@@ -442,7 +442,7 @@ public class BrowseContentItemAdapter extends RecyclerView.Adapter<BrowseContent
             };
             play.setOnKeyListener(actionKeyListener);
             playAll.setOnKeyListener(actionKeyListener);
-            download.setOnKeyListener(actionKeyListener);
+            //download.setOnKeyListener(actionKeyListener);
             playlistAdd.setOnKeyListener(actionKeyListener);
         }
     }
